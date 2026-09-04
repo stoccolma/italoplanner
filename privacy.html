@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — ItaloPlanner</title>
+<meta name="description" content="ItaloPlanner's privacy policy. No accounts, no analytics, no ads, no tracking. Everything stays on your device.">
+<link rel="icon" href="img/icon.png">
+<style>
+  :root {
+    --ink: #14201f; --muted: #5d6b69; --faint: #8a9896;
+    --accent: #0f5c57; --bg: #fbfaf7; --card: #ffffff; --line: #e6e3dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #eef2f1; --muted: #a9b6b4; --faint: #7d8b89;
+            --accent: #5dbfb2; --bg: #101514; --card: #171e1d; --line: #26302e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.5rem 4rem; }
+  h1, h2 { font-family: Georgia, "Iowan Old Style", "Times New Roman", serif; letter-spacing: -0.01em; }
+  h1 { font-size: 2.2rem; margin: 0 0 .4rem; }
+  h2 { font-size: 1.3rem; margin: 2.5rem 0 .6rem; }
+  .updated { color: var(--faint); font-size: .9rem; margin: 0 0 2rem; }
+  .lede { font-size: 1.15rem; color: var(--muted); }
+  .lede strong { color: var(--ink); font-weight: 600; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+  li { margin-bottom: .5rem; color: var(--muted); }
+  li strong { color: var(--ink); font-weight: 600; }
+  .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { width: 100%; min-width: 34rem; border-collapse: collapse; font-size: .95rem; margin-bottom: 1rem; }
+  th, td { text-align: left; padding: .7rem .8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .76rem; text-transform: uppercase; letter-spacing: .05em; color: var(--faint); font-weight: 600; }
+  td:first-child { font-weight: 600; white-space: nowrap; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem 1.4rem; margin: 1.5rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--faint); font-size: .9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy</h1>
+  <p class="updated">ItaloPlanner · last updated 5 September 2026</p>
+
+  <p class="lede"><strong>ItaloPlanner collects nothing about you.</strong> There are no accounts, no analytics, no advertising and no third-party SDKs. Nothing you type, photograph or save is sent to us, because there is no “us” to send it to — the app has no server.</p>
+
+  <h2>What stays on your phone</h2>
+  <p>Everything you create in the app is stored locally on the device, using Apple's on-device database. iCloud sync is switched off. None of it leaves the phone unless you send it somewhere yourself.</p>
+  <ul>
+    <li><strong>Your saved places, day plans and bookmarks</strong></li>
+    <li><strong>Your allergens, diets and preferences</strong>, including the name you use for restaurant bookings</li>
+    <li><strong>Menus and wine lists you photograph</strong>, and the text read from them</li>
+    <li><strong>Your location</strong>, used to work out walking distances and never transmitted by the app</li>
+  </ul>
+  <p>Deleting the app deletes all of it. There is no copy anywhere else.</p>
+
+  <h2>What happens on the device</h2>
+  <p>Reading a menu, translating text, and working out how to pronounce a dish all happen on the phone itself, using Apple's on-device frameworks. Photographs of menus are never uploaded.</p>
+
+  <h2>The network requests the app makes</h2>
+  <p>Finding places needs the internet. These are every request the app makes, and everything each one carries. None of them includes an account, a device identifier, or anything identifying you.</p>
+
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Goes to</th><th>What it carries</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Apple Maps</td>
+        <td>What you searched for, and roughly where you are looking</td>
+        <td>Finding places and addresses. Handled under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</td>
+      </tr>
+      <tr>
+        <td>Wikimedia</td>
+        <td>A coordinate, or the name of an article</td>
+        <td>Descriptions of places, from Wikivoyage and Wikipedia</td>
+      </tr>
+      <tr>
+        <td>OpenStreetMap</td>
+        <td>A coordinate and a radius</td>
+        <td>The places in an area, their opening hours and dietary tags</td>
+      </tr>
+      <tr>
+        <td>WhatsApp or Messages</td>
+        <td>Only the booking message you wrote, and only when you tap send</td>
+        <td>Contacting a restaurant. The app opens the message ready; you press send.</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="box">
+    <p style="margin:0"><strong>The app never sends a message on your behalf.</strong> Booking opens WhatsApp or Messages with the text prepared, and stops there. Nothing goes anywhere until you send it yourself.</p>
+  </div>
+
+  <h2>Permissions, and what each is for</h2>
+  <ul>
+    <li><strong>Location</strong> — only while you are using the app, to show what is within walking distance and how far. Refusing it costs you the Near Me screen and nothing else.</li>
+    <li><strong>Camera</strong> — to photograph a menu or wine list so it can be read on the device. Photographs are not uploaded or stored beyond the scan.</li>
+    <li><strong>Calendar</strong> — only if you choose to export a day plan as events.</li>
+  </ul>
+  <p>Every one of these is optional, asked for at the moment it is needed, and refusable without breaking the rest of the app.</p>
+
+  <h2>Children</h2>
+  <p>ItaloPlanner is not directed at children and collects no personal information from anyone, of any age.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy ever changes, the date at the top changes with it. Since the app collects nothing, any change is likely to be a clarification rather than a new use of your data.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy in ItaloPlanner can be sent to <a href="mailto:hello@italoplanner.com">hello@italoplanner.com</a>. Mail to that address is forwarded to a personal inbox and read by one person; it is not stored anywhere else, and nothing about it goes back into the app.</p>
+
+  <footer>
+    <p>The same information is in the app itself, under <strong>Tools → Data &amp; privacy</strong>, listed per recipient.</p>
+  </footer>
+
+</div>
+</body>
+</html>
